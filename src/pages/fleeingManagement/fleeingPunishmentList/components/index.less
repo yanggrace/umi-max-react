@@ -1,0 +1,61 @@
+.process {
+  position: relative;
+  padding: 0 15px 0 30px;
+  &::before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    display: block;
+    background: #3796d4;
+    position: absolute;
+    left: 26px;
+    top: 0;
+  }
+  .title {
+    background: #3796d4;
+    color: #fff;
+    width: 120px;
+    padding: 3px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .processItem {
+    margin-top: 20px;
+    position: relative;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    .c {
+      color: #151515;
+    }
+    .processItemDate {
+      width: 60px;
+      height: 20px;
+      line-height: 20px;
+      background-color: #fff;
+      position: absolute;
+      left: -22px;
+      top: 0;
+    }
+    .processItemHeader {
+      background: #f8f8f8;
+      border: 1px solid #eee;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 4px;
+    }
+    .processContent {
+      padding: 10;
+      border: 1px solid #eee;
+      border-top: 0;
+      background-color: #f5f9fc;
+      color: #666;
+      font-size: 12px;
+      padding: 10px;
+      .processContentItem {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
